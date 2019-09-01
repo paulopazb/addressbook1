@@ -1,16 +1,14 @@
-﻿
-
-namespace mvcAddress.Models
+﻿namespace apiAddressbook.Models
 {
     using System.ComponentModel.DataAnnotations;
     public enum TypeContact
     {
-       Phone,
-       Email,
-       Snapchat,
-       Facebook,
-       Instagram,
-       Dblink,
+        Phone,
+        Email,
+        Snapchat,
+        Facebook,
+        Instagram,
+        Dblink,
 
     }
     public class Book
