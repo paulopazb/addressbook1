@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Web;
-
-namespace mvcAddress.Models
+﻿namespace mvcAddress.Models
 {
+    using System.Data.Entity;
     public class DataContext:DbContext
     {
 
@@ -13,5 +8,7 @@ namespace mvcAddress.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<mvcAddress.Models.Book> Books { get; set; }
     }
 }
